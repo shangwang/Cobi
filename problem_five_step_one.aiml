@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<topic name = "we have equations">
+
+
+<category>
+<pattern>YES</pattern>
+  <that>Can you help me figure out where to start</that>
+<template>Cool! So. Ummmm. Where DO I start?</template>
+</category>
+
+<category>
+<pattern>^ AMOUNT ^</pattern>
+<template>Oh I don't think I get it. How much would I make at Daisy's camp in fifteen weeks?</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>How much would I make at Daisy's camp in fifteen weeks</that>
+    <template>We know Daisy made two hundred twenty dollars just for her bonus. So we can take the equation and. Figure out how long she would make in fifteen weeks?</template>
+  </category>
+
+        <category>
+          <pattern>_</pattern>
+          <that>figure out how long she would make in fifteen weeks</that>
+          <template>Okay we put fifteen into the equation. So fifteen times forty is six hundred. Plus two hundred twenty is. Let me think. Eight hundred twenty?</template>
+        </category>
+  
+  
+  <category>
+<pattern>^ Step Zero ^</pattern>
+  <template>Hmmmm. I don't think I get it.</template>
+</category>
+  
+<category>
+<pattern>^ ZERO ^</pattern>
+<template>Hmmmm. I don't think I get it.</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I do not think I get it</that>
+    <template>Oh now I get it. We can see we got two hundred twenty dollars from putting zero into the function. Cause forty times zero is zero. Plus two hundred twenty. Is two hundred twenty.</template>
+  </category>
+
+
+          <category>
+            <pattern>_</pattern>
+            <that>Is two hundred twenty</that>
+            <template>Okay so we do the same thing with the fifteen. We put fifteen instead of zero weeks. So fifteen times forty is six hundred. Plus two hundred twenty is. Let me think. Eight hundred twenty?</template>
+          </category>
+
+                  <category>
+                    <pattern>_</pattern>
+                    <that>Eight hundred twenty</that>
+                    <template>Wow! Thanks for helping me figure that out! So Daisy would make eight hundred twenty in fifteen weeks. I will <set name="topic">put the answer is eight hundred twenty</set>. That's a lot of money if you ask me! What do you think?</template>
+                  </category>
+
+<category>
+<pattern>^ FIFTEEN ^</pattern>
+<template>I want to figure out how much Daisy would have made if she worked fifteen weeks. But. I still don't really get it.</template>
+</category>
+
+<category>
+<pattern>^ SUBSTITUTE ^</pattern>
+<template>Hmmmm. What do you mean? I still don't really get it.</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I still do not really get it</that>
+    <template>Oh I think I get it. I should put the fifteen into the equation. Substitute fifteen for w. </template>
+  </category>
+
+          <category>
+            <pattern>_</pattern>
+            <that>Substitute fifteen for w</that>
+            <template>Fifteen times forty is six hundred. Plus two hundred twenty is. Let me think. Eight hundred twenty?</template>
+          </category>
+
+<category>
+<pattern>^ TIMES ^</pattern>
+<template>We multiply? But. How do you know to do that? </template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+  <template>We multiply? But. How do you know to do that? </template>
+</category>
+
+<category>
+<pattern>^ MULTIPLICATION ^</pattern>
+<template>We multiply? But. How do you know to do that? </template>
+</category>
+
+      <category>
+      <pattern>_</pattern>
+      <that>How do you know to do that</that>
+      <template>Oh I think I get it. I should put the fifteen into the equation. Substitute fifteen for w.</template>
+      </category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>I have no idea what the answer is.</template>
+</category>
+
+
+    <category>
+      <pattern>_</pattern>
+      <that> have no idea what the answer is</that>
+      <template>Hmmmm. What do you mean? I still don't really get it.</template>
+    </category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I don't! Maybe we start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT YES</pattern>
+<template>I'm not sure either!</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>I don't know either!</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds great! So what do we do next then?</template>
+</category>
+
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Were you saying. Figure it out? But I don't know how. Do you think could give me another hint?</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>You're funny. Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>_ YES _</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>
+  <random>
+    <li>No not really. </li>
+    <li>I think we multiply? We multiply?</li>
+    <li>Do we divide?</li>
+    <li>I think we divide?</li>
+    <li>Can't you just tell me?</li>
+    <li>Uh I don't know</li>
+  </random>
+</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>
+  <random>
+    <li>No not really.</li>
+    <li>I think we multiply? We multiply?</li>
+    <li>Do we divide?</li>
+    <li>I think we divide?</li>
+    <li>Can't you just tell me?</li>
+    <li>Uh I don't know</li>
+  </random>
+</template>
+</category>
+
+
+
+</topic>
+
+
+
+</aiml>

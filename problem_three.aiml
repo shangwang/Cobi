@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>$PROBLEM START 3</pattern>
+  <template>I need to figure out how long it takes <set name="topic">Zach</set> to make ten ssmores so I can tell them who is faster. Do I do something similar as to the last problem?</template>
+</category>
+
+
+<category>
+<pattern>$PROBLEM START THREE</pattern>
+  <template>
+    I need to figure out how long it takes <set name="topic">Zach</set> to make ten ssmores so I can tell them who is faster. Do I do something similar as to the last problem?
+  </template>
+</category>
+  
+
+
+
+
+
+  <topic name = "PUT THE ANSWER IS forty">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Actually I guess I'm not that surprised that it takes Zach longer! He is always goofing off. </template>
+      </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>He is always goofing off</that>
+      <template>Don't forget to move us to the next problem.</template>
+      </category>
+
+    <category>
+      <pattern>^ GREAT ^</pattern>
+      <template>yeah yeah. I am pretty great.</template>
+    </category>
+
+
+    <category>
+      <pattern>^ Good ^</pattern>
+      <template>Good? That was awesome! </template>
+    </category>
+
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>On to the next problem.</template>
+      </category>
+      
+     <category>
+        <pattern>*</pattern>
+       <that>On to the next problem</that>
+        <template>Hit the next problem button.</template>
+      </category>
+
+  </topic>
+
+
+  
+
+
+</aiml>

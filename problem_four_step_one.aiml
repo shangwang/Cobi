@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+
+<topic name = "Daisy's summer bonus">
+
+<category>
+<pattern>^ SLOPE ^</pattern>
+<template>I am not very good with calculating slope and line equations. Can we use the information we already have about Daisy?</template>
+</category>
+
+<category>
+<pattern>^ MX ^</pattern>
+  <template>I am not very good with calculating slope and line equations. Can we use the information we already have about Daisy?</template>
+</category>
+
+<category>
+<pattern>^ Y equals ^</pattern>
+  <template>I am not very good with calculating slope and line equations. Can we use the information we already have about Daisy?</template>
+</category>
+
+<category>
+<pattern>^ Y = ^</pattern>
+  <template>I am not very good with calculating slope and line equations. Can we use the information we already have about Daisy?</template>
+</category>
+
+<category>
+<pattern>^ equation ^</pattern>
+  <template>I am not very good with calculating slope and line equations. Can we use the information we already have about Daisy?</template>
+</category>
+
+<category>
+<pattern>^ Y intercept ^</pattern>
+  <template>I am not very good with calculating slope and line equations. Can we use the information we already have about Daisy?</template>
+</category>
+
+    <category>
+      <pattern>_ YES _</pattern>
+      <that>Can we use the information we already have about Daisy</that>
+      <template>Yes, I think we can. We know that Daisy made 700 dollars in 12 weeks with a weekly pay of 40 dollars. Why don't we put these into an equation for a line?</template>
+    </category>
+
+   <category>
+      <pattern>YES</pattern>
+      <that>Can we use the information we already have about Daisy</that>
+     <template>Yes, I think we can. We know that Daisy made 700 dollars in 12 weeks with a weekly pay of $40. Why don't we put these into an equation for a line?</template>
+   </category>
+  
+    <category>
+        <pattern>_</pattern>
+        <that>Can we use the information we already have about Daisy</that>
+      <template>Yes, I think we can. We know that Daisy made 700 dollars in 12 weeks with a weekly pay of $40. Why don't we put these into an equation for a line?</template>
+    </category>
+
+    <category>
+      <pattern>_ MULTIPLY _</pattern>
+      <that>But how can we use these numbers</that>
+      <template>You are pretty good at this, you know. So we put the seven hundred dollars as why. And we put the twelve weeks as x. Why don't we put these into an equation for a line?</template>
+    </category>
+
+    <category>
+      <pattern>_ TIMES _</pattern>
+      <that>But how can we use these numbers</that>
+      <template>You are pretty good at this, you know. So we put the seven hundred dollars as why. And we put the twelve weeks as x. Why don't we put these into an equation for a line?</template>
+    </category>
+
+      <category>
+        <pattern>_ PUT IN _</pattern>
+        <that>But how can we use these numbers</that>
+        <template>You are pretty good at this, you know. So we put the seven hundred dollars as why. And we put the twelve weeks as x. Why don't we put these into an equation for a line?</template>
+      </category>
+
+      <category>
+        <pattern>_ PUT _</pattern>
+        <that>But how can we use these numbers</that>
+        <template>You are pretty good at this, you know. So we put the seven hundred dollars as why. And we put the twelve weeks as x. Why don't we put these into an equation for a line?</template>
+      </category>
+
+
+      <category>
+        <pattern>_</pattern>
+        <that>But how can we use these numbers</that>
+        <template>You are pretty good at this, you know. So we put the seven hundred dollars as why. And we put the twelve weeks as x. Why don't we put these into an equation for a line?</template>
+      </category>
+
+
+      <category>
+        <pattern>_</pattern>
+        <that>Why don't we put these into an equation for a line</that>
+        <template>Well the money earned would be weekly pay times the number of weeks plus the bonus. So 12 times 40 plus what equals 700? Is it 220?</template>
+      </category>
+
+
+      <category>
+        <pattern>_</pattern>
+        <that>Is it 220</that>
+        <template>Cool, so then we know the Y intercept is 220. But what the units for that? Is that in dollars?</template>
+      </category>
+
+      <category>
+        <pattern>_ YES _</pattern>
+        <that>Is that in dollars</that>
+        <template>
+          Great! So the y intercept is 220 and the equation is P equals 40 s plus 220. I will <set name="topic">put the answer is two hundred twenty</set>!</template>
+      </category>
+
+      <category>
+        <pattern>_ NO _</pattern>
+        <that>Is that in dollars</that>
+        <template>
+          Great! So the y intercept is 220 and the equation is P equals 40 s plus 220. I will <set name="topic">put the answer is two hundred twenty</set>!
+        </template>
+      </category>
+
+      <category>
+        <pattern>_</pattern>
+        <that>Is that in dollars</that>
+        <template>
+          Great! So the y intercept is 220 and the equation is P equals 40 s plus 220. I will <set name="topic">put the answer is two hundred twenty</set>!
+        </template>
+      </category>
+
+  <category>
+<pattern>^ TWELVE ^</pattern>
+<template>So we know that Daisy made seven hundred dollars in twelve weeks. But how can we use these numbers?</template>
+</category>
+
+<category>
+<pattern>^ SEVEN ^</pattern>
+<template>Benji's equation is perfect. He worked seven weeks with a slope of fifty five dollars per week. The y intercept is his summer bonus, or one hundred fifteen dollars. But I'm not sure what to do with that to find Daisy's equation. Can we use the information we already have about Daisy?</template>
+</category>
+
+<category>
+<pattern>^ SEVEN HUNDRED ^</pattern>
+<template>Cool. So we know that Daisy earned seven hundred dollars in twelve weeks. But how can we use these numbers?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS TWELVE TIMES FORTY ^</pattern>
+<template>That is a great question. Twelve times forty is four hundred eighty. Four hundred eighty plus two hundred twenty is then seven hundred.</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Four hundred eighty plus two hundred twenty is then seven hundred.</that>
+    <template>Ahh so if we set two hundred twenty to the Y intercept, or B, then the equation equals seven hundred. So then we know that the y intercept is two hundred twenty?</template>
+  </category>
+
+
+  <category>
+    <pattern>_</pattern>
+    <that>So then we know that the y intercept is two hundred twenty</that>
+    <template>Nice! But what the units for that? Is that in dollars?</template>
+  </category>
+
+  <category>
+<pattern>^ TWELVE TIMES FORTY ^</pattern>
+<template>That is a great question. Twelve times forty is four hundred eighty. Four hundred eighty plus two hundred twenty is then seven hundred.</template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^ TWO HUNDRED TWENTY ^</pattern>
+<template>
+  Hmmmm. Thank you for giving me the answer, <bot name="username"/>! But I am still confused. We know that Daisy earned seven hundred dollars in twelve weeks. But how can we use these numbers?</template>
+</category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I really don't know! We can start with what we know about Daisy?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Me either! We can start with what we know about Daisy?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either! We can start with what we know about Daisy?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that's cool! So what do we do?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>That's funny. Did you say figure it out? I'm not sure how! Help me!</template>
+</category>
+
+<category>
+<pattern>^ I WILL ^</pattern>
+<that>Help me</that>
+<template>Thank you, you're the best. So what do we do?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Help me</that>
+<template>You're the best. So what do we do?</template>
+</category>
+
+      <category>
+      <pattern>_</pattern>
+      <that>So what do we do</that>
+      <template>We can take the seven hundred dollars Daisy earned in a whole summer, forty dollar weekly pay, and the twelve weeks she worked. Why don't we put these into an equation for a line?</template>
+      </category>
+
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+</category>
+
+
+    <category>
+      <pattern>*</pattern>
+      <that>Did you ask do I know what to do next</that>
+      <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+    </category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>
+  Okay <bot name="username"/>. So we know Daisy earned seven hundred dollars in twelve weeks at forty dollars per week. Why don't we put these into an equation for a line?</template>
+</category>
+
+
+</topic>
+  
+</aiml>

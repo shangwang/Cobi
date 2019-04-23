@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<topic name = "Zach">
+
+  <category>
+    <pattern>_ YES _</pattern>
+    <that>Do I do something similar as to the last problem</that>
+    <template>I'm really not very good at this. What did we do with the ten exactly?</template>
+  </category>  
+  
+<category>
+<pattern>^ TEN ^</pattern>
+<template>So I am guessing we do the same thing we did before? But. I'm really not very good at this. What did we do with the ten exactly?</template>
+</category>
+  
+        <category>
+        <pattern>_</pattern>
+        <that>What did we do with the ten exactly</that>
+        <template>Oh right. I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in. Where the s is?</template>
+        </category>
+
+  <category>
+    <pattern>^ SUBSTITUTE ^</pattern>
+    <template>So we substitute the ten in, like last time. But. I'm really not very good at this. What did we do with the ten exactly?</template>
+  </category>
+
+<category>
+<pattern>^ SAME THING ^</pattern>
+<template>So I know we do the same thing. But. I'm really not very good at this. How do I do that exactly?</template>
+</category>
+
+<category>
+<pattern>^ SAME ^</pattern>
+<template>So I know we do the same thing as with Tasha's equation. But. I'm really not very good at this. How do I do that exactly?</template>
+</category>
+
+<category>
+<pattern>^ LAST TIME ^</pattern>
+<template>So I know we do the same thing as with Tasha's equation. But. I'm really not very good at this. How do I do that exactly?</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>How do I do that exactly</that>
+    <template>Oh I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in.  Where the s is?</template>
+  </category>
+
+          <category>
+            <pattern>_</pattern>
+            <that>Where the s is</that>
+            <template>Dang. That's actually really easy I guess.</template>
+          </category>
+
+                  <category>
+                    <pattern>_</pattern>
+                    <that>That is actually really easy I guess</that>
+                    <template>Ten times four is forty. Plus one. So forty one?</template>
+                  </category>
+
+                      <category>
+                        <pattern>_</pattern>
+                        <that>So forty one</that>
+                        <template>Wow! It takes Zach almost twice as long! Tasha only took twenty four minutes. Did you know it was going to take Zach longer?</template>
+                      </category>
+
+                              <category>
+                                <pattern>_</pattern>
+                                <that>Did you know it was going to take Zach longer</that>
+                                <template>I knew Tasha was fast. I will <set name="topic">put the answer is forty one.</set>!
+                                </template>
+                              </category>
+  
+<category>
+<pattern>^ TIMES ^</pattern>
+<template>Okay I know we multiplied before and this is really similar to figuring out how long it took Tasha. But. I'm really not very good at this. What do we do exactly? What are we multiplying?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+  <template>Okay I know we multiplied before and this is really similar to figuring out how long it took Tasha. But. I'm really not very good at this. What do we do exactly? What are we multiplying?</template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLICATION ^</pattern>
+  <template>Okay I know we multiplied before and this is really similar to figuring out how long it took Tasha. But. I'm really not very good at this. What do we do exactly? What are we multiplying?</template>
+</category>
+
+      <category>
+      <pattern></pattern>
+      <that>What are we multiplying</that>
+      <template>Oh I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in.  Where the s is?</template>
+      </category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>I know I should know. But I really don't. How do I get the answer?</template>
+</category>
+
+  <category>
+    <pattern>^ ANSWER ^</pattern>
+    <template>Oh I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in.  Where the s is?</template>
+  </category>
+  
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I don't! Maybe we start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT YES</pattern>
+<template>I'm not sure either!</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>I don't know either!</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds great! So what do we do next then?</template>
+</category>
+
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Were you saying. Figure it out? I don't know how. Do you think could give me another hint?</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>You're funny. Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>_ YES _</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>
+  <random>
+    <li>No not really. </li>
+    <li>I think we multiply? We multiply?</li>
+    <li>Do we divide?</li>
+    <li>I think we divide?</li>
+    <li>Can't you just tell me?</li>
+    <li>Uh I don't know</li>
+  </random>
+</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>
+  <random>
+    <li>No not really.</li>
+    <li>I think we multiply? We multiply?</li>
+    <li>Do we divide?</li>
+    <li>I think we divide?</li>
+    <li>Can't you just tell me?</li>
+    <li>Uh I don't know</li>
+  </random>
+</template>
+</category>
+
+
+
+</topic>
+
+
+
+</aiml>

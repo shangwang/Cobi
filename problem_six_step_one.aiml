@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<topic name = "how much I would make">
+
+  <category>
+    <pattern>_ YES _</pattern>
+    <that>Do you think I should do something like we did in the last problem</that>
+    <template>I don't have the best memory really. What did we do with the fifteen again?</template>
+  </category>  
+  
+<category>
+<pattern>^ FIFTEEN ^</pattern>
+<template>So I am guessing we do the same thing we did before? I don't have the best memory really. What did we do with the fifteen again?</template>
+</category>
+  
+        <category>
+        <pattern>_</pattern>
+        <that>What did we do with the fifteen again</that>
+        <template>Oh yes, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the w is right?</template>
+        </category>
+
+  <category>
+    <pattern>^ SUBSTITUTE ^</pattern>
+    <template>So like we did before, right? I don't have the best memory really. What did we do with the fifteen again?</template>
+  </category>
+
+<category>
+<pattern>^ SAME THING ^</pattern>
+<template>So I know we do the same thing. But. I'm really not very good at this. How do I do that exactly?</template>
+</category>
+
+<category>
+<pattern>^ SAME ^</pattern>
+<template>So I know we do the same thing as with Tasha's equation. But. I'm really not very good at this. How do I do that exactly?</template>
+</category>
+
+<category>
+<pattern>^ LAST TIME ^</pattern>
+<template>So I know we do the same thing as with Tasha's equation. But. I'm really not very good at this. How do I do that exactly?</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>How do I do that exactly</that>
+    <template>Oh yes, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the w is right?</template>
+  </category>
+
+          <category>
+            <pattern>_</pattern>
+            <that>Where the w is right</that>
+            <template>Wow. That is pretty even then.</template>
+          </category>
+
+                  <category>
+                    <pattern>_</pattern>
+                    <that>That is pretty even then</that>
+                    <template>So we multiply fifty five by fifteen. Plus one hundred fifteen. So nine hunrded forty?</template>
+                  </category>
+
+                      <category>
+                        <pattern>_</pattern>
+                        <that>So nine hunrded forty</that>
+                        <template>Look at that! I would make over a hundred dollars more at Benji's camp than Daisy's! Is that what you expected?</template>
+                      </category>
+
+                              <category>
+                                <pattern>_</pattern>
+                                <that>Is that what you expected</that>
+                                <template>Well I am surprised. I will <set name="topic">put the answer is nine hundred forty</set>!
+                                </template>
+                              </category>
+  
+<category>
+<pattern>^ TIMES ^</pattern>
+<template>Okay I remember us multiplying before and this is really similar to finding how much I would make at Daisy's camp. But. I don't have the best memory really. What do we do exactly? What are we multiplying?</template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+  <template>Okay I remember us multiplying before and this is really similar to finding how much I would make at Daisy's camp. But. I don't have the best memory really. What do we do exactly? What are we multiplying?</template>
+</category>
+
+
+<category>
+<pattern>^ MULTIPLICATION ^</pattern>
+  <template>Okay I remember us multiplying before and this is really similar to finding how much I would make at Daisy's camp. But. I don't have the best memory really. What do we do exactly? What are we multiplying?</template>
+</category>
+
+      <category>
+      <pattern></pattern>
+      <that>What are we multiplying</that>
+      <template>Oh yeah, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the w is right?</template>
+      </category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>You're right, I should know. But I really don't. How do I get the answer?</template>
+</category>
+
+  <category>
+    <pattern>^ ANSWER ^</pattern>
+    <template>Oh yeah, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the w is right?</template>
+  </category>
+  
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I don't! Maybe we start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT YES</pattern>
+<template>I'm not sure either!</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>I don't know either!</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds great! So what do we do next then?</template>
+</category>
+
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Were you saying. Figure it out? I don't know how. Do you think could give me another hint?</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>You're funny. Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>_ YES _</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>
+  <random>
+    <li>No not really. </li>
+    <li>I think we multiply? We multiply?</li>
+    <li>Do we divide?</li>
+    <li>I think we divide?</li>
+    <li>Can't you just tell me?</li>
+    <li>Uh I don't know</li>
+  </random>
+</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>
+  <random>
+    <li>No not really.</li>
+    <li>I think we multiply? We multiply?</li>
+    <li>Do we divide?</li>
+    <li>I think we divide?</li>
+    <li>Can't you just tell me?</li>
+    <li>Uh I don't know</li>
+  </random>
+</template>
+</category>
+
+
+
+</topic>
+
+
+
+</aiml>

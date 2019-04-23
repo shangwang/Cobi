@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+
+<topic name = "equation for Zach">
+
+<category>
+<pattern>^ SLOPE ^</pattern>
+<template>I am not very good with calculating slope and line equations. Do we use the data we already have for Zach?</template>
+</category>
+
+<category>
+<pattern>^ MX ^</pattern>
+  <template>I am not very good with calculating slope and line equations. Do we use the data we already have for Zach?</template>
+</category>
+
+<category>
+<pattern>^ Y equals ^</pattern>
+  <template>I am not very good with calculating slope and line equations. Do we use the data we already have for Zach?</template>
+</category>
+
+<category>
+<pattern>^ Y = ^</pattern>
+  <template>I am not very good with calculating slope and line equations. Do we use the data we already have for Zach?</template>
+</category>
+
+<category>
+<pattern>^ equation ^</pattern>
+  <template>I am not very good with calculating slope and line equations. Do we use the data we already have for Zach?</template>
+</category>
+
+    <category>
+      <pattern>_ YES _</pattern>
+      <that>Do we use the data we already have for Zach</that>
+      <template>So yes we do. Alright. We know that Zach can make two smores in nine minutes. So we put these into the equation for a line!</template>
+    </category>
+
+   <category>
+      <pattern>YES</pattern>
+      <that>Do we use the data we already have for Zach</that>
+     <template>So yes we do. Alright. We know that Zach can make two smores in nine minutes. So we put these into the equation for a line!</template>
+   </category>
+  
+    <category>
+        <pattern>_</pattern>
+        <that>Do we use the data we already have for Zach</that>
+      <template>So yes we do. Alright. We know that Zach can make two smores in nine minutes. So we put these into the equation for a line!</template>
+    </category>
+
+    <category>
+      <pattern>_ MULTIPLY _</pattern>
+      <that>But how do we use the two and the nine</that>
+      <template>You are pretty good at this, you know.  So we put the nine minutes as why. And we put the two smores as x. So we put these into the equation for a line!</template>
+    </category>
+
+    <category>
+      <pattern>_ TIMES _</pattern>
+      <that>But how do we use the two and the nine</that>
+      <template>You are pretty good at this, you know. So we put the nine minutes as why. And we put the two smores as x. So we put these into the equation for a line!</template>
+    </category>
+
+      <category>
+        <pattern>_ PUT IN _</pattern>
+        <that>But how do we use the two and the nine</that>
+        <template>You are pretty good at this, you know. So we put the nine minutes as why. And we put the two smores as x. So we put these into the equation for a line!</template>
+      </category>
+
+      <category>
+        <pattern>_ PUT _</pattern>
+        <that>But how do we use the two and the nine</that>
+        <template>You are pretty good at this, you know. So we put the nine minutes as why. And we put the two smores as x. So we put these into the equation for a line!</template>
+      </category>
+
+
+      <category>
+        <pattern>_</pattern>
+        <that>But how do we use the two and the nine</that>
+        <template>You are pretty good at this, you know. We can take the nine minutes and the two smores we know Zach can make. And. So we put these into the equation for a line!</template>
+      </category>
+
+
+      <category>
+        <pattern>_</pattern>
+        <that>So we put these into the equation for a line</that>
+        <template>With the nine, two and the one, we can solve for the slope of the line! We need to know. What times two plus one equals nine. Hmmmm. I guess four? </template>
+      </category>
+
+
+      <category>
+        <pattern>_</pattern>
+        <that>I guess four</that>
+        <template>So then we know the slope is four. Are there units on the slope? Like smores per minute or something?</template>
+      </category>
+
+      <category>
+        <pattern>_ YES _</pattern>
+        <that>Like smores per minute or something</that>
+        <template>
+          Cool. So then the slope is four minutes per smore and the equation is T equals four s plus one. I will <set name="topic">put the answer is four</set>!</template>
+      </category>
+
+      <category>
+        <pattern>_ NO _</pattern>
+        <that>Like smores per minute or something</that>
+        <template>
+          Cool. So the equation is T equals four s plus one. I will <set name="topic">put the answer is four</set>!
+        </template>
+      </category>
+
+      <category>
+        <pattern>_</pattern>
+        <that>Like smores per minute or something</that>
+        <template>
+          Cool. The slope is four minutes per smore and the equation is T equals four s plus one. I will <set name="topic">put the answer is four</set>!
+        </template>
+      </category>
+
+  <category>
+<pattern>^ TWO ^</pattern>
+<template>So we know that Zach can make two smores in nine minutes. But how do we use the two and the nine?</template>
+</category>
+
+<category>
+<pattern>^ FOUR ^</pattern>
+<template>Tasha's equation is sweet. So we know she takes four minutes to setup. And the slope is two. But I'm not sure what to do with that to find Zach's equation. Do we use the data we already have for Zach?</template>
+</category>
+
+<category>
+<pattern>^ NINE ^</pattern>
+<template>Cool. So we know that Zach can make two smores in nine minutes. But how do we use the two and the nine?</template>
+</category>
+
+<category>
+<pattern>^ WHAT IS FOUR TIMES TWO ^</pattern>
+<template>That is a great question. Four times two is eight. Then we can add one to it and that is nine. </template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>Then we can add one to it and that is nine.</that>
+    <template>Ohhhh. Okay so if we make the slope which is M the number four, then in the equation it equals nine. So then we know the slope is four?</template>
+  </category>
+
+
+  <category>
+    <pattern>_</pattern>
+    <that>So then we know the slope is four</that>
+    <template>Are there units on the slope? Like smores per minute or something?</template>
+  </category>
+
+  <category>
+<pattern>^ FOUR TIMES TWO ^</pattern>
+<template>That is a great question! Four times two is eight. Then we can add one to it and that is nine. </template>
+</category>
+
+
+<category>
+<pattern>^ ANSWER ^ FOUR ^</pattern>
+<template>
+  Hmmmm. Thank you for giving me the answer, <bot name="username"/>! But I am still confused. We know that Zach can make two smores in nine minutes. But how do we use the two and the nine?</template>
+</category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I really don't know! We start with what we know about Zach?</template>
+</category>
+
+<category>
+<pattern>I AM NOT SURE</pattern>
+<template>Me either! We start with what we know about Zach?</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>Me either! We start with what we know about Zach?</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that's cool! So what do we do?</template>
+</category>
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>That's funny. Did you say figure it out? I'm not sure how! Help me!</template>
+</category>
+
+<category>
+<pattern>^ I WILL ^</pattern>
+<that>Help me</that>
+<template>Thank you, you're the best. So what do we do?</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Help me</that>
+<template>You're the best. So what do we do?</template>
+</category>
+
+      <category>
+      <pattern>_</pattern>
+      <that>So what do we do</that>
+      <template>We can take the nine minutes and the two smores we know Zach can make. And. So we put these into the equation for a line?</template>
+      </category>
+
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>^ YES ^</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+</category>
+
+
+    <category>
+      <pattern>*</pattern>
+      <that>Did you ask do I know what to do next</that>
+      <template>I'm really not sure actually! I know I should. I'm sorry. Help me!</template>
+    </category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>
+  Okay <bot name="username"/>. So we know Zach can make two smores in nine minutes. So we put these into the equation for a line?</template>
+</category>
+
+
+</topic>
+  
+</aiml>

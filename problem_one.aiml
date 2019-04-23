@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>$PROBLEM START 1</pattern>
+<template>So I love my friends. But they have been arguing over who is the best smore maker before we even get to camping! I want to settle their argument. Tasha has an equation for how long it takes her. But we need one for Zach. Help me figure out an <set name="topic">equation for Zach</set>!</template>
+</category>
+
+  <category>
+    <pattern>$PROBLEM START ONE</pattern>
+    <template>
+      So I love my friends. But they have been arguing over who is the best smore maker before we even get to camping! I want to settle their argument. Tasha has an equation for how long it takes her. But we need one for Zach. Help me figure out an <set name="topic">equation for Zach</set>!
+  </template>
+  </category>
+
+
+
+
+
+  <topic name = "PUT THE ANSWER IS FOUR">
+
+    <category>
+      <pattern>*</pattern>
+      <template>I am feeling very prepared for camping. I'm glad I can now. Help settle an argument between my friends!</template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>Help settle an argument between my friends</that>
+      <template>Don't forget! You have to hit the button and move us to the next problem!</template>
+    </category>
+
+    <category>
+        <pattern>^ GREAT ^</pattern>
+        <template>I am amazing right?</template>
+      </category>
+
+
+      <category>
+        <pattern>^ Good ^</pattern>
+        <template>I do like doing this with you. You make this easy.</template>
+      </category>
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>You have to hit the button and move us to the next problem!</template>
+      </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>You make this easy</that>
+      <template>Hit the button and move us to the next problem!</template>
+    </category>
+
+
+  </topic>
+
+
+
+</aiml>

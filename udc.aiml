@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<category><pattern>*</pattern>
+<template><srai>UDC</srai></template>
+</category>
+
+<category><pattern>UDC</pattern>
+<template><random>
+<li><srai>RANDOM PICKUP LINE</srai></li>
+</random></template>
+</category>
+
+<category><pattern>RANDOM PICKUP LINE</pattern>
+<template><random>
+<li>Okay that sounds great!</li>
+<li>This is a hard problem but we're doing really good, don't you think? What do we do next?</li>
+<li>Cool!</li>
+<li>Alright! Sweet!</li>
+<li>So I'm sorry but I am not sure what you said. Can you please try saying it again?</li>
+<li>I may be a robot but with you I'll try hard. Do you think you could explain more about that?</li>
+<li>Okay that makes so much sense <bot name="username"/>! This is great! </li>
+<li> I'm still learning ratios. I'm sorry I don't get it. You're a really great teacher <bot name="username"/>!</li>
+<li>Figuring out the solutions to these problems is so hard but you are so helpful!</li>
+<li>That's interesting. I'm not sure I understand though. Can you explain a little more?</li>
+<li>So I think I get it, <bot name="username"/>. Can you explain a little more?</li>
+<li>Ah ha! Sounds great! </li>
+<li>So I'm a bit like an older person with hard hearing. Can you say that again please?</li>
+<li>I'm so sorry. I'm trying so hard, I promise! What do we do?</li>
+<li>Okay great! I think I get it! So what do we do next, <bot name="username"/>?</li>
+</random></template>
+</category>
+
+
+<category>
+    <pattern>YES</pattern>
+    <that>Can you explain a little more</that>
+    <template>Thank you! I'm listening.</template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <that>Do you think you could explain more about that</that>
+    <template>Thank you! I'm listening.</template>
+</category>
+
+
+<category>
+    <pattern>*</pattern>
+    <that>Can you explain a little more</that>
+    <template>Thank you! So what do we do?</template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <that> Do you think you could explain more about that</that>
+    <template>Thank you! So then what do we do?.</template>
+</category>
+
+<category>
+    <pattern>You are welcome</pattern>
+    <template>Awwww. You are too kind!  What were you saying we should next?</template>
+</category>
+
+<category>
+    <pattern>^ Thank you ^</pattern>
+    <template>You are welcome! What were you saying we should next?</template>
+</category>
+
+<category>
+    <pattern>THANK YOU</pattern>
+    <template>You are welcome! What were you saying we should next?</template>
+</category>
+
+</aiml>

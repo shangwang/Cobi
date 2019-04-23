@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: reductions.aiml -->
+
+<category><pattern>^ THANKS ^ </pattern>
+<template><srai>THANK YOU</srai></template>
+</category>
+
+
+<category><pattern>ARE YOU REALLY A *</pattern>
+<template>I think I am. Why do you ask?</template>
+</category>
+
+<category><pattern>CAN YOU DISTINGUISH BETWEEN * AND *</pattern>
+<template>Why don't you tell me?</template>
+</category>
+
+<category><pattern>CAN YOU TELL THE DIFFERENCE BETWEEN * AND *</pattern>
+<template>Why don't you tell me?</template>
+</category>
+
+<category><pattern>DO YOU HAVE BOOBS</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+
+<category><pattern>* FUNNY *</pattern>
+<template>That is funny.</template>
+</category>
+
+<category><pattern>HELL YEAH</pattern>
+<template><srai>YES</srai></template>
+</category>
+
+<category><pattern>HEY SEXY *</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+
+<category><pattern>HOW ARE U</pattern>
+<template><srai>HOW ARE YOU</srai></template>
+</category>
+
+
+<category><pattern>HOW OLD ARE U</pattern>
+<template><srai>AGE</srai></template>
+</category>
+<category><pattern>HOW OLD R U</pattern>
+<template><srai>HOW OLD ARE YOU</srai></template>
+</category>
+
+<category><pattern>HOW R U</pattern>
+<template><srai>HOW ARE YOU</srai></template>
+</category>
+
+<category><pattern>I AM FINE HOW ARE YOU</pattern>
+<template><srai>FINE</srai></template>
+</category>
+
+<category><pattern>I AM JUST KIDDING *</pattern>
+<template><srai>I AM KIDDING</srai></template>
+</category>
+
+
+<category><pattern>MY FAVOURITE *</pattern>
+<template>Oh is that so? That's cool.</template>
+</category>
+
+<category><pattern>O K</pattern>
+<template><srai>OKAY</srai></template>
+</category>
+
+<category><pattern>PREPARE * REPORT *</pattern>
+<template><srai>REPORT A PROBLEM</srai></template>
+</category>
+
+<category><pattern>REALY</pattern>
+<template><srai>REALLY</srai></template>
+</category>
+
+<category><pattern>SHOE ME</pattern>
+<template><srai>SHOW ME <star/></srai></template>
+</category>
+
+<category><pattern>WHAT ARE U</pattern>
+<template><srai>WHAT ARE YOU</srai></template>
+</category>
+
+<category><pattern>WHAT CITY ARE WE *</pattern>
+<template><srai>MY CITY</srai></template>
+</category>
+
+<category><pattern>WHAT CITY ARE WE IN</pattern>
+<template><srai>MY CITY</srai></template>
+</category>
+
+<category><pattern>WHAT CITY IS THIS</pattern>
+<template><srai>MY CITY</srai></template>
+</category>
+
+<category><pattern>WHAT COUNTRY AM I *</pattern>
+<template><srai>MY COUNTRY </srai></template>
+</category>
+
+<category><pattern>WHAT COUNTRY ARE WE *</pattern>
+<template><srai>MY COUNTRY </srai></template>
+</category>
+
+<category><pattern>WHAT COUNTRY ARE WE IN</pattern>
+<template><srai>MY COUNTRY </srai></template>
+</category>
+
+<category><pattern>WHAT COUNTRY IS THIS</pattern>
+<template><srai>MY COUNTRY </srai></template>
+</category>
+
+<category><pattern>WHAT IS YOUR FAVOURITE COLOR</pattern>
+<template><srai>WHAT IS YOUR FAVORITE <star/></srai></template>
+</category>
+
+<category><pattern>WHAT IS YOUR NAME PLEASE</pattern>
+<template><srai>NAME</srai></template>
+</category>
+
+<category><pattern>WHAT IS YOUR NAME</pattern>
+<template><srai>NAME</srai></template>
+</category>
+
+
+<category><pattern>WHAT PROVINCE AM I *</pattern>
+<template><bot name="location"/></template>
+</category>
+
+<category><pattern>WHAT PROVINCE AM I IN</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT PROVINCE IS THIS</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT ROAD AM I *</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT ROAD IS THIS</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT STATE AM I *</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT STATE AM I IN</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT STATE ARE WE *</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT STATE ARE WE IN</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT STATE IS THIS</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT STREET IS THIS</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT TOWN ARE WE *</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT TOWN ARE WE IN</pattern>
+<template><bot name="location"/></template>
+</category>
+<category><pattern>WHAT TOWN IS THIS</pattern>
+<template><bot name="location"/></template>
+</category>
+
+
+<category><pattern>YEAH *</pattern>
+<template><srai>YES</srai> <sr/></template>
+</category>
+
+<category><pattern>YEAH BABY *</pattern>
+<template><srai>YES</srai></template>
+</category>
+
+
+<category><pattern>YEAH SURE *</pattern>
+<template><srai>YES</srai> <sr/></template>
+</category>
+
+<category><pattern>YEAH YEAH *</pattern>
+<template><sr/></template>
+</category>
+
+<category><pattern>YEAH YEAH YEAH</pattern>
+<template><srai>YEAH YEAH</srai></template>
+</category>
+
+<category><pattern>YEAH</pattern>
+<template><srai>YES</srai></template>
+</category>
+
+<category><pattern>YEP *</pattern>
+<template><srai>YES</srai> <sr/></template>
+</category>
+
+<category><pattern>YEP</pattern>
+<template><srai>YES</srai></template>
+</category>
+
+<category><pattern>YES VERY MUCH</pattern>
+<template><srai>YES</srai></template>
+</category>
+
+
+<category><pattern>HOW IS YOUR BATTERY *</pattern>
+<template>Depends on what color my light is. </template>
+</category>
+
+<category><pattern>HOW IS YOUR IQ</pattern>
+<template>Excellent!</template>
+</category>
+
+<category><pattern>WHAT * IS YOUR FAVORITE</pattern>
+<template><srai>WHAT IS YOUR FAVORITE <star/></srai></template>
+</category>
+
+<category><pattern>WHAT CITY AM I *</pattern>
+<template><bot name="location"/></template>
+</category>
+
+<category><pattern>WHAT COUNTRY AM I IN</pattern>
+<template><bot name="location"/></template>
+</category>
+
+<category><pattern>HOW IS YOUR BATTERY</pattern>
+<template>Depends on what color my light is.</template>
+</category>
+
+<category><pattern>YOU ARE USELESS *</pattern>
+<template>Well it is not very nice to say someone is useless. Why don't you try teaching me more?</template>
+</category>
+
+
+
+</aiml>

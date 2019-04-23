@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>$PROBLEM START 4</pattern>
+<template>I love camping so much, I want to work for a camp one day! I asked my brother Benji and my sister Daisy to see which of them worked at a better camp. Benji remembered everything we needed to make a function, but Daisy is my forgetful and did not. Can you help me find <set name="topic">Daisy's summer bonus</set> to figure out her summer pay?</template>
+</category>
+
+  <category>
+    <pattern>$PROBLEM START FOUR</pattern>
+    <template>
+      I love camping so much, I want to work for a camp one day! I asked my brother Benji and my sister Daisy to see which of them worked at a better camp. Benji remembered everything we needed to make a function, but Daisy is my forgetful and did not. Can you help me find <set name="topic">Daisy's summer bonus</set> to figure out her summer pay?
+    </template>
+  </category>
+
+
+
+
+  <topic name = "PUT THE ANSWER IS TWO HUNDRED TWENTY">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Great job! Now lets see where I can make the most money!</template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>Now lets see where I can make the most money</that>
+      <template>Remember you have to press the button to go Problem 5!</template>
+    </category>
+
+    <category>
+        <pattern>^ GREAT ^</pattern>
+        <template>I am amazing right?</template>
+      </category>
+
+
+      <category>
+        <pattern>^ Good ^</pattern>
+        <template>I do like doing this with you. You make this easy.</template>
+      </category>
+
+      <category>
+        <pattern>*</pattern>
+        <that>You make this easy</that>
+        <template>Hit the button to move us to the next problem!</template>
+      </category>
+
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>You have to hit the button to move us to the next problem!</template>
+      </category>
+
+  </topic>
+
+
+
+</aiml>

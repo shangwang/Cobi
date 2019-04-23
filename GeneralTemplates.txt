@@ -1,0 +1,35 @@
+
+
+
+
+<category><pattern>YES * </pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+<category><pattern>YES</pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+<category><pattern>* Yeah * </pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+<category><pattern>Yeah * </pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+<category><pattern>Yeah</pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+<category><pattern>* Yep * </pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+<category><pattern>Yep * </pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>
+
+<category><pattern>Yep</pattern><that>THE ANSWER IS EIGHTEEN FOR STEP ONE</that>
+<template>Alright I'm going to put the answer in.</template>
+</category>

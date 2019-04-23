@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>$PROBLEM START 2</pattern>
+<template>Now that I have <set name="topic">equations</set> for Tasha and Zach, I need to actually use them. Can you help me figure out where to start?
+</template>
+</category>
+
+
+<category>
+<pattern>$PROBLEM START TWO</pattern>
+  <template>
+    Now that I have <set name="topic">equations</set> for Tasha and Zach, I need to actually use them. Can you help me figure out where to start?
+  </template>
+</category>
+
+
+
+  <topic name = "Put the answer is twenty">
+
+    <category>
+      <pattern>*</pattern>
+      <that>What do you think</that>
+      <template>Hmmmm. I wonder if Tasha will be faster than Zach. Lets move to the next problem and. figure out how long it takes Zach to make ten ssmores.</template>
+    </category>
+      
+      <category>
+        <pattern>*</pattern>
+        <that>figure out how long it takes Zach to make ten ssmores</that>
+        <template>Lets do it! Hit the next problem button</template>
+      </category>
+
+      <category>
+        <pattern>^ GREAT ^</pattern>
+        <template>yeah yeah. I am pretty great.</template>
+      </category>
+
+
+      <category>
+        <pattern>^ Good ^</pattern>
+        <template>Good? That was awesome! </template>
+      </category>
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>Next, lets see if we can figure out how long it takes Zach to make ten ssmores.</template>
+      </category>
+
+    </topic>
+
+</aiml>

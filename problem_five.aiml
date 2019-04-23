@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>$PROBLEM START 5</pattern>
+<template>Now that <set name="topic">we have equations</set> for Daisy's and Benji's pay, we should do something with them! Can you help me figure out where to start?</template>
+</category>
+
+
+<category>
+<pattern>$PROBLEM START FIVE</pattern>
+  <template>
+    Now that <set name="topic">we have equations</set> for Daisy's and Benji's pay, we should do something with them! Can you help me figure out where to start?
+  </template>
+</category>
+
+
+
+  <topic name = "Put the answer is eight hundred twenty">
+
+    <category>
+      <pattern>*</pattern>
+      <that>What do you think</that>
+      <template>I'm curious to see whose camp will make me the most money, Benji or Daisy?</template>
+    </category>
+      
+      <category>
+        <pattern>*</pattern>
+        <that>I'm curious to see whose camp will make me the most money, Benji or Daisy</that>
+        <template>Lets do it! Hit the next problem button</template>
+      </category>
+
+      <category>
+        <pattern>^ GREAT ^</pattern>
+        <template>yeah yeah. I am pretty great.</template>
+      </category>
+
+
+      <category>
+        <pattern>^ Good ^</pattern>
+        <template>Good? That was awesome! </template>
+      </category>
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>Next, lets see if we can figure out how much I'd make at Benji's camp in 15 weeks. Press the button to go to the next problem!</template>
+      </category>
+
+    </topic>
+
+</aiml>

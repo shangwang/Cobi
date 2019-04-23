@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<topic name = "equations">
+
+
+<category>
+<pattern>YES</pattern>
+  <that>Can you help me figure out where to start</that>
+<template>Cool! So. Ummmm. Where DO I start?</template>
+</category>
+
+<category>
+<pattern>^ AMOUNT ^</pattern>
+<template>Oh I don't think I get it. How do I figure out how long it takes Tasha to make ten ssmores?</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>How do I figure out how long it takes Tasha to make ten ssmores</that>
+    <template>We know if Tasha makes zero ssmores, it takes her four minutes just to setup. So we can take the equation and. Figure out how long it takes her to cook ten ssmores?</template>
+  </category>
+
+        <category>
+          <pattern>_</pattern>
+          <that>Figure out how long it takes her to cook ten ssmores</that>
+          <template>Okay we put ten into the equation. So two times ten is twenty. Plus four is. Let me think. Twenty four?</template>
+        </category>
+  
+  
+  <category>
+<pattern>^ Step Zero ^</pattern>
+  <template>Hmmmm. I don't think I get it.</template>
+</category>
+  
+<category>
+<pattern>^ ZERO ^</pattern>
+<template>Hmmmm. I don't think I get it.</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I do not think I get it</that>
+    <template>Oh now I get it. We can see that the four came from putting zero in. Cause two times two is zero. Plus four. Is four.</template>
+  </category>
+
+
+          <category>
+            <pattern>_</pattern>
+            <that>is four</that>
+            <template>Okay so we do the same thing with the ten. We put ten instead of zero ssmores. So two times ten is twenty. Plus four. Let me think. Twenty four?</template>
+          </category>
+
+                  <category>
+                    <pattern>_</pattern>
+                    <that>Twenty four</that>
+                    <template>Sweet! Thank you for helping me! So it takes Tasha twenty four minutes to make ten ssmores. I will <set name="topic">put the answer is twenty</set> four. That seems pretty fast!</template>
+                  </category>
+
+<category>
+<pattern>^ TEN ^</pattern>
+<template>I want to figure out how long it takes Tasha to make ten ssmores. But. I still don't really get it.</template>
+</category>
+
+<category>
+<pattern>^ SUBSTITUTE ^</pattern>
+<template>Hmmmm. What do you mean? I still don't really get it.</template>
+</category>
+
+  <category>
+    <pattern>_</pattern>
+    <that>I still do not really get it</that>
+    <template>Oh I think I get it. I should put the ten into the equation. Substitute ten for s. </template>
+  </category>
+
+          <category>
+            <pattern>_</pattern>
+            <that>Substitute ten for s</that>
+            <template>Two times ten is twenty. Plus four. Let me think. Twenty four?</template>
+          </category>
+
+<category>
+<pattern>^ TIMES ^</pattern>
+<template>We multiply? But. How do you know to do that? </template>
+</category>
+
+<category>
+<pattern>^ MULTIPLY ^</pattern>
+  <template>We multiply? But. How do you know to do that? </template>
+</category>
+
+<category>
+<pattern>^ MULTIPLICATION ^</pattern>
+<template>We multiply? But. How do you know to do that? </template>
+</category>
+
+      <category>
+      <pattern>_</pattern>
+      <that>How do you know to do that</that>
+      <template>Oh I think I get it. I should put the ten into the equation. Substitute ten for s.</template>
+      </category>
+
+<category>
+<pattern>^ ANSWER ^</pattern>
+<template>I have no idea what the answer is.</template>
+</category>
+
+
+    <category>
+      <pattern>_</pattern>
+      <that> have no idea what the answer is</that>
+      <template>Hmmmm. What do you mean? I still don't really get it.</template>
+    </category>
+
+<category>
+<pattern>DO YOU NOT KNOW</pattern>
+<template>I don't! Maybe we start by multiplying?</template>
+</category>
+
+<category>
+<pattern>I AM NOT YES</pattern>
+<template>I'm not sure either!</template>
+</category>
+
+<category>
+<pattern>I DO NOT KNOW</pattern>
+<template>I don't know either!</template>
+</category>
+
+<category>
+<pattern>^ SO WE CAN FIGURE IT OUT ^</pattern>
+<template>Okay that sounds great! So what do we do next then?</template>
+</category>
+
+
+<category>
+<pattern>^ FIGURE IT OUT ^</pattern>
+<template>Were you saying. Figure it out? I don't know how. Do you think could give me another hint?</template>
+</category>
+
+<category>
+<pattern>^ DO YOU KNOW ^ NEXT ^ </pattern>
+<template>You're funny. Did you ask do I know what to do next?</template>
+</category>
+
+<category>
+<pattern>_ YES _</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>
+  <random>
+    <li>No not really. </li>
+    <li>I think we multiply? We multiply?</li>
+    <li>Do we divide?</li>
+    <li>I think we divide?</li>
+    <li>Can't you just tell me?</li>
+    <li>Uh I don't know</li>
+  </random>
+</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Did you ask do I know what to do next</that>
+<template>
+  <random>
+    <li>No not really.</li>
+    <li>I think we multiply? We multiply?</li>
+    <li>Do we divide?</li>
+    <li>I think we divide?</li>
+    <li>Can't you just tell me?</li>
+    <li>Uh I don't know</li>
+  </random>
+</template>
+</category>
+
+
+
+</topic>
+
+
+
+</aiml>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+<pattern>$PROBLEM START 6</pattern>
+  <template>All right, now that we know how much I'd make at Daisy's camp, can we find <set name="topic">how much I would make</set> at Benji's? Do you think I should do something like we did in the last problem?</template>
+</category>
+
+
+<category>
+<pattern>$PROBLEM START SIX</pattern>
+  <template>
+    All right, now that we know how much I'd make at Daisy's camp, can we find <set name="topic">how much I would make</set> at Benji's? Do you think I should do something like we did in the last problem?
+  </template>
+</category>
+
+
+  <topic name = "PUT THE ANSWER IS NINE HUNDRED FORTY">
+
+    <category>
+      <pattern>*</pattern>
+      <template>Wow, I can't believe I'd make more money at Benji's camp! He's so cheap!</template>
+      </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>He's so cheap</that>
+      <template>Click the button to finish!</template>
+      </category>
+
+    <category>
+      <pattern>^ GREAT ^</pattern>
+      <template>yeah yeah. I am pretty great.</template>
+    </category>
+
+
+    <category>
+      <pattern>^ Good ^</pattern>
+      <template>Good? That was awesome! </template>
+    </category>
+
+
+      <category>
+        <pattern>^ NEXT ^</pattern>
+        <template>On to the next problem.</template>
+      </category>
+      
+     <category>
+        <pattern>*</pattern>
+       <that>On to the next problem</that>
+        <template>Hit the next problem button.</template>
+      </category>
+
+  </topic>
+
+</aiml>
