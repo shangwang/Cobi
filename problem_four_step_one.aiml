@@ -29,13 +29,13 @@
 
 
 <category>
- <pattern>^ SEVEN ^</pattern>
+ <pattern>^ HUNDRED ^</pattern>
   <that>How do we use the equations we have for Daisy</that>
   <template>Great! So the y intercept is 220 and the equation is P equals 40 x plus 220. I will <set name="topic">put the answer is two hundred twenty</set>!</template>
 </category>
 
 <category>
-  <pattern>_ SEVEN _</pattern>
+  <pattern>_ HUNDRED _</pattern>
   <that>How do we use the equations we have for Daisy</that>
   <template>Great! So the y intercept is 220 and the equation is P equals 40 x plus 220. I will <set name="topic">put the answer is two hundred twenty</set>!</template>
 </category>
