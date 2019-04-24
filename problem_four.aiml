@@ -3,13 +3,13 @@
 
 <category>
 <pattern>$PROBLEM START 4</pattern>
-<template>I love camping so much, I want to work for a camp one day! I asked my brother Benji and my sister Daisy to see which of them worked at a better camp. Benji remembered everything we needed to make a function, but Daisy is my forgetful and did not. Can you help me find <set name="topic">Daisy's summer bonus</set> to figure out her summer pay?</template>
+<template>I love camping so much, I want to work for a camp one day! I asked my brother Benji and my sister Daisy to see which of them worked at a better camp. Benji remembered everything we needed to make a function, but Daisy is my forgetful and did not. Can you help me find Daisy's <set name="topic">summer bonus</set> to figure out her summer pay?</template>
 </category>
 
   <category>
     <pattern>$PROBLEM START FOUR</pattern>
     <template>
-      I love camping so much, I want to work for a camp one day! I asked my brother Benji and my sister Daisy to see which of them worked at a better camp. Benji remembered everything we needed to make a function, but Daisy is my forgetful and did not. Can you help me find <set name="topic">Daisy's summer bonus</set> to figure out her summer pay?
+      I love camping so much, I want to work for a camp one day! I asked my brother Benji and my sister Daisy to see which of them worked at a better camp. Benji remembered everything we needed to make a function, but Daisy is my forgetful and did not. Can you help me find Daisy's <set name="topic">summer bonus</set> to figure out her summer pay?
     </template>
   </category>
 
