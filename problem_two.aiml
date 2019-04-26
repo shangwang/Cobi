@@ -22,12 +22,12 @@
     <category>
       <pattern>*</pattern>
       <that>What do you think</that>
-      <template>Hmmmm. I wonder if Tasha will be faster than Zach. Lets move to the next problem and. figure out how long it takes Zach to make ten ssmores.</template>
+      <template>Hmmmm. I wonder if Tasha will be faster than Zach. Lets move to the next problem and. figure out how long it takes Zach to make ten smores.</template>
     </category>
       
       <category>
         <pattern>*</pattern>
-        <that>figure out how long it takes Zach to make ten ssmores</that>
+        <that>figure out how long it takes Zach to make ten smores</that>
         <template>Lets do it! Hit the next problem button</template>
       </category>
 
@@ -44,7 +44,7 @@
 
       <category>
         <pattern>^ NEXT ^</pattern>
-        <template>Next, lets see if we can figure out how long it takes Zach to make ten ssmores.</template>
+        <template>Next, lets see if we can figure out how long it takes Zach to make ten smores.</template>
       </category>
 
     </topic>

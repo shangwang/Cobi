@@ -97,14 +97,14 @@
         <pattern>_ YES _</pattern>
         <that>Like smores per minute or something</that>
         <template>
-          Cool. So then the slope is four minutes per smore and the equation is T equals four s plus one. I will <set name="topic">put the answer is four</set>!</template>
+          Cool. So then the slope is four minutes per smore and the equation is Y equals four x plus one. I will <set name="topic">put the answer is four</set>!</template>
       </category>
 
       <category>
         <pattern>_ NO _</pattern>
         <that>Like smores per minute or something</that>
         <template>
-          Cool. So the equation is T equals four s plus one. I will <set name="topic">put the answer is four</set>!
+          Cool. So the equation is Y equals four x plus one. I will <set name="topic">put the answer is four</set>!
         </template>
       </category>
 
@@ -112,7 +112,7 @@
         <pattern>_</pattern>
         <that>Like smores per minute or something</that>
         <template>
-          Cool. The slope is four minutes per smore and the equation is T equals four s plus one. I will <set name="topic">put the answer is four</set>!
+          Cool. The slope is four minutes per smore and the equation is Y equals four x plus one. I will <set name="topic">put the answer is four</set>!
         </template>
       </category>
 

@@ -71,12 +71,12 @@
   <category>
     <pattern>_</pattern>
     <that>I still do not really get it</that>
-    <template>Oh I think I get it. I should put the fifteen into the equation. Substitute fifteen for w. </template>
+    <template>Oh I think I get it. I should put the fifteen into the equation. Substitute fifteen for x. </template>
   </category>
 
           <category>
             <pattern>_</pattern>
-            <that>Substitute fifteen for w</that>
+            <that>Substitute fifteen for x</that>
             <template>Fifteen times forty is six hundred. Plus two hundred twenty is. Let me think. Eight hundred twenty?</template>
           </category>
 
@@ -98,7 +98,7 @@
       <category>
       <pattern>_</pattern>
       <that>How do you know to do that</that>
-      <template>Oh I think I get it. I should put the fifteen into the equation. Substitute fifteen for w.</template>
+      <template>Oh I think I get it. I should put the fifteen into the equation. Substitute fifteen for x.</template>
       </category>
 
 <category>

@@ -18,7 +18,7 @@
         <category>
         <pattern>_</pattern>
         <that>What did we do with the fifteen again</that>
-        <template>Oh yes, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the w is right?</template>
+        <template>Oh yes, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the x is right?</template>
         </category>
 
   <category>
@@ -44,12 +44,12 @@
   <category>
     <pattern>_</pattern>
     <that>How do I do that exactly</that>
-    <template>Oh yes, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the w is right?</template>
+    <template>Oh yes, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the x is right?</template>
   </category>
 
           <category>
             <pattern>_</pattern>
-            <that>Where the w is right</that>
+            <that>Where the x is right</that>
             <template>Wow. That is pretty even then.</template>
           </category>
 
@@ -91,7 +91,7 @@
       <category>
       <pattern></pattern>
       <that>What are we multiplying</that>
-      <template>Oh yeah, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the w is right?</template>
+      <template>Oh yeah, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the x is right?</template>
       </category>
 
 <category>
@@ -101,7 +101,7 @@
 
   <category>
     <pattern>^ ANSWER ^</pattern>
-    <template>Oh yeah, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the w is right?</template>
+    <template>Oh yeah, I remember. So we have Benji's equation, like we had Daisy's. And we just put the fiften in. Where the x is right?</template>
   </category>
   
 <category>

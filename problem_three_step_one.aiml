@@ -18,7 +18,7 @@
         <category>
         <pattern>_</pattern>
         <that>What did we do with the ten exactly</that>
-        <template>Oh right. I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in. Where the s is?</template>
+        <template>Oh right. I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in. Where the x is?</template>
         </category>
 
   <category>
@@ -44,12 +44,12 @@
   <category>
     <pattern>_</pattern>
     <that>How do I do that exactly</that>
-    <template>Oh I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in.  Where the s is?</template>
+    <template>Oh I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in.  Where the x is?</template>
   </category>
 
           <category>
             <pattern>_</pattern>
-            <that>Where the s is</that>
+            <that>Where the x is</that>
             <template>Dang. That's actually really easy I guess.</template>
           </category>
 
@@ -91,7 +91,7 @@
       <category>
       <pattern></pattern>
       <that>What are we multiplying</that>
-      <template>Oh I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in.  Where the s is?</template>
+      <template>Oh I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in.  Where the x is?</template>
       </category>
 
 <category>
@@ -101,7 +101,7 @@
 
   <category>
     <pattern>^ ANSWER ^</pattern>
-    <template>Oh I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in.  Where the s is?</template>
+    <template>Oh I think I get it. So we have Zach's equation, like we had Tasha's. And we just put the ten in.  Where the x is?</template>
   </category>
   
 <category>
